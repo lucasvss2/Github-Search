@@ -10,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
 
   div {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 30px;
     color: ${colors.light};
 
@@ -28,8 +28,8 @@ export const Form = styled.form`
   input {
     width: 235px;
     height: 42px;
-    border-radius: 5px;
-    background: ${colors.secudary};
+    border-radius: 15px;
+    background: ${colors.secondary};
     border: 0;
     color: ${colors.gray};
     padding: 0 15px;
@@ -39,7 +39,7 @@ export const Form = styled.form`
   button {
     width: 235px;
     height: 42px;
-    border-radius: 5px;
+    border-radius: 15px;
     background: ${colors.purple};
     border: 0;
     color: ${colors.light};

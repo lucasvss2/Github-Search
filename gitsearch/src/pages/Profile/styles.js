@@ -15,17 +15,16 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 55px;
-    @media (max-width: 840px) {
-      flex-direction: column;
-    }
+    div {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: ${colors.light};
+
     span {
-      font-size: 20px;
-      color: #fff;
+      margin-left: 8px;
       font-style: italic;
-      strong {
-        font-style: normal;
-      }
     }
+  }
   }
 `;
 
@@ -82,8 +81,8 @@ export const Form = styled.form.attrs(props => ({
     border: 0;
     background: #2e2f45;
     padding: 0 15px;
-    color: #fff;
-    border-radius: 5px;
+    color: ${colors.light};
+    border-radius: 15px;
     margin: 0 15px;
     &::placeholder {
       opacity: 0.6;
@@ -92,29 +91,6 @@ export const Form = styled.form.attrs(props => ({
       margin: 20px 0 10px;
     }
   }
-  button {
-    width: 234px;
-    height: 38px;
-    border: 0;
-    background: #56588c;
-    color: #fff;
-    border-radius: 5px;
-    transition: background 0.2s;
-    &:hover {
-      background: ${darken(0.05, '#56588c')};
-    }
-    &[disabled] {
-      cursor: not-allowed;
-      opacity: 0.6;
-    }
-  }
-  ${props =>
-    props.loading &&
-    css`
-      svg {
-        animation: ${rotate} 2s linear infinite;
-      }
-    `}
 `;
 
 export const Content = styled.div`
@@ -128,9 +104,9 @@ export const Content = styled.div`
   }
   aside {
     width: 238px;
-    background: #2e2f45;
-    color: #fff;
-    border-radius: 5px;
+    background: ${colors.secondary};
+    color: ${colors.light};
+    border-radius: 15px;
     padding: 15px;
     @media (max-width: 840px) {
       width: 100%;
@@ -144,8 +120,8 @@ export const Content = styled.div`
       width: 138px;
       height: 138px;
       border-radius: 50%;
-      border: 2px solid #fff;
-      background: #eee;
+      border: 2px solid ${colors.light};
+      background: ${colors.gray};
       margin-bottom: 15px;
     }
     div {
@@ -175,7 +151,7 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
     margin-left: 20px;
-    color: #fff;
+    color: ${colors.light};
     ul {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -190,8 +166,8 @@ export const Content = styled.div`
       }
 
       li {
-        background: #2e2f45;
-        border-radius: 4px;
+        background: ${colors.secondary};
+        border-radius: 15px;
         padding: 20px;
 
         span {

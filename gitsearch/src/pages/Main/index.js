@@ -17,7 +17,7 @@ export default function Main() {
     setLoading(true);
 
     if (username === '') {
-      toast.warning('Input your username!');
+      toast.warning('Insert any username.');
       setLoading(false);
       return;
     }

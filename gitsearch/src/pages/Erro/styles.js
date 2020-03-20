@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import colors from '../../styles/colors';
 
 export const Container = styled.div`
   height: 100%;
@@ -6,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: ${colors.light};
 
   strong {
     font-size: 40px;
