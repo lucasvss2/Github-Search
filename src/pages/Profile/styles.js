@@ -1,5 +1,4 @@
-import { darken } from 'polished';
-import styled, { keyframes, css } from 'styled-components';
+import styled from 'styled-components';
 
 import colors from '../../styles/colors';
 
@@ -16,7 +15,7 @@ export const Container = styled.div`
     justify-content: center;
     margin-bottom: 55px;
     div {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-size: 20px;
     color: ${colors.light};
 
@@ -56,15 +55,6 @@ export const ContainerUser = styled.div`
       opacity: 0.8;
     }
 
-  }
-`;
-
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 `;
 

@@ -24,7 +24,6 @@ export default function Profile() {
         ));
       } catch (err) {
         toast.error('Press Back!!');
-        console.log(err);
       }
     }
 
