@@ -24,6 +24,9 @@ export const Container = styled.div`
       font-style: italic;
     }
   }
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
   }
 `;
 
