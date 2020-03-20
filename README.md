@@ -15,7 +15,7 @@ This project features all the latest tools and practices in front-end developmen
 This is a study project about search devs profile of GitHub :books:
 
 ## :zap: Getting started
-1. Clone this repo using: `https://github.com/joao-lucas-dev/github-search.git`
-2. Move yourself to the appropriate directory: `cd github-search`
+1. Clone this repo using: `https://github.com/lucasvss2/Github-Search
+2. Move yourself to the appropriate directory: `cd gitsearch`
 3. To install all dependencies, run: `yarn`
 4. Run `yarn start` to start the website
