@@ -1,7 +1,9 @@
 <h1 align="center">GitHub-Search</h1>
 <h1 align="center">App para busca de perfis no Github</h1>
 
-![ezgif com-crop](https://user-images.githubusercontent.com/54068176/77164222-93746300-6a8e-11ea-8fe7-924d3f890b35.gif)
+<p align="center">
+  <img alt="teste" src="images/Gitsearch.gif">
+</p>
 
 ## :hammer: Technologies
 
