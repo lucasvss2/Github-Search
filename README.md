@@ -1,5 +1,21 @@
-# Github-Search
-App de busca de perfis no Github
+<h1 align="center">GitHub-Search</h1>
+<h1 align="center">App para busca de perfis no Github</h1>
 
-![GitSearch - Google Chrome 20_03_2020 09_12_04](https://user-images.githubusercontent.com/54068176/77162763-712d1600-6a8b-11ea-8fb8-81dd858ddbca.png)
-![GitSearch - Google Chrome 20_03_2020 09_11_59](https://user-images.githubusercontent.com/54068176/77162761-70947f80-6a8b-11ea-97d9-c64d164a83c9.png)
+![ezgif com-crop](https://user-images.githubusercontent.com/54068176/77164222-93746300-6a8e-11ea-8fe7-924d3f890b35.gif)
+
+## :hammer: Technologies
+
+This project features all the latest tools and practices in front-end development!
+
+- ⚛️ **ReactJS** — A library that provides a way to create websites
+
+
+## 💻 Project
+
+This is a study project about search devs profile of GitHub :books:
+
+## :zap: Getting started
+1. Clone this repo using: `https://github.com/joao-lucas-dev/github-search.git`
+2. Move yourself to the appropriate directory: `cd github-search`
+3. To install all dependencies, run: `yarn`
+4. Run `yarn start` to start the website
